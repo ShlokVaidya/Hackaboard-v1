@@ -6,17 +6,22 @@
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x6060
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    LUANTY
-#define PRODUCT         PHEROMONE
-#define DESCRIPTION     SEX PHEROMONE
+#define MANUFACTURER    SHLOK
+#define PRODUCT         HACKABOARD
+#define DESCRIPTION     SEX HACKABOARD
 
 /* key matrix size */
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 15
 
-/* key matrix pins */
-#define MATRIX_ROW_PINS { B3, B2, B1, B0, E6 }
-#define MATRIX_COL_PINS { D3, D5, D4, D6, D7, B4, B5, B6, C6, C7, F7, F6, F4, F1, F0 }
+/* key matrix pins - GP pins for Raspberry Pi Pico 2W */
+#define MATRIX_ROW_PINS { GP2, GP3, GP4, GP5, GP6 }
+#define MATRIX_COL_PINS { GP7, GP8, GP9, GP10, GP11, GP12, GP13, GP14, GP15, GP16, GP17, GP18, GP19, GP20, GP21 }
+
+/* I2C pins for OLED on Raspberry Pi Pico 2W */
+#define I2C_DRIVER I2CD1
+#define I2C1_SDA_PIN GP0
+#define I2C1_SCL_PIN GP1
 
 #define OLED_FONT_H "keymaps/default/glcdfont.c"
 
@@ -28,8 +33,8 @@
 
 // #define TAPPING_TERM 200
 
-#define ENCODERS_PAD_A { B7 }
-#define ENCODERS_PAD_B { D2 }
+#define ENCODERS_PAD_A { GP26 }
+#define ENCODERS_PAD_B { GP27 }
 #define ENCODER_RESOLUTION 4
 
 #define MIDI_BASIC
@@ -47,7 +52,7 @@
 /*enable right shift+2 email address marco*/
 #define EMAIL_ENABLE
 #ifdef EMAIL_ENABLE
-	#define EMAIL_ADDRESS "luanty@163.com"
+	#define EMAIL_ADDRESS "shlok@163.com"
 #endif
 
 /*sequence for ctrl, win and alt*/

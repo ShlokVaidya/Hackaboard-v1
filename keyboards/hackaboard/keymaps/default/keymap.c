@@ -1,4 +1,4 @@
-#include "pheromone.h"
+#include "hackaboard.h"
 #ifdef POT_ENABLE
   #include "analog.h"
 #endif

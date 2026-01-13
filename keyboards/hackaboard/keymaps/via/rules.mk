@@ -1,15 +1,9 @@
 # MCU name
-MCU = atmega32u4
+MCU = RP2350
 
 # Bootloader selection
-#   Teensy       halfkay
-#   Pro Micro    caterina
-#   Atmel DFU    atmel-dfu
-#   LUFA DFU     lufa-dfu
-#   QMK DFU      qmk-dfu
-#   ATmega32A    bootloadHID
-#   ATmega328P   USBasp
-BOOTLOADER = qmk-dfu
+#   Raspberry Pi Pico 2W uses rp2040 bootloader
+BOOTLOADER = rp2040
 
 # Build Options
 #   comment out to disable the options.
@@ -24,8 +18,6 @@ NKRO_ENABLE = yes	# USB Nkey Rollover - if this doesn't work, see here: https://
 BACKLIGHT_ENABLE = no  # Enable keyboard backlight functionality
 AUDIO_ENABLE = no
 RGBLIGHT_ENABLE = no
-EXTRAFLAGS        += -flto 
-LINK_TIME_OPTIMIZATION_ENABLE = yes
 SPACE_CADET_ENABLE=no
 ENCODER_ENABLE = yes
 OLED_DRIVER_ENABLE = yes

@@ -1,7 +1,9 @@
 {
-    "keyboard_name": "pheromone", 
+    "keyboard_name": "hackaboard", 
     "url": "", 
-    "maintainer": "LUANTY", 
+    "maintainer": "SHLOK",
+    "processor": "RP2350",
+    "bootloader": "rp2040", 
     "width": 15, 
     "height": 5, 
     "layouts": {
