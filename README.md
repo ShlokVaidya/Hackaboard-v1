@@ -52,6 +52,7 @@ Take a look at the Hackaboard in all its glory:
 - **Macros:** Built-in email address macro with right shift + 2
 - **Keymaps:** Multiple pre-configured layouts (see below)
 
+Please read [the Journal](./hackaboard-journal.md)
 ---
 
 ## ⌨️ Keymap Configurations
