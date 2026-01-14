@@ -73,6 +73,34 @@ Full support for the VIA configurator, allowing you to reprogram your keyboard w
 
 ---
 
+# BOM table
+
+Category | Item | Website | Cost (INR) | Cost (USD)
+-- | -- | -- | -- | --
+MCU | Raspberry Pi Pico 2 | Robu.in | ₹544 | $6
+Diodes | 1N4148 SOD-123 (×63) | Robu.in | ₹36 | $0.4
+Shipping (MCU + diodes) | — | Robu.in | ₹49 | $0.54
+Subtotal (MCU + diodes) |   |   | ₹630 | $7
+Conversion fee (3%) |   |   | ₹650 | $7.22
+MCU + Diodes Total |   |   | ₹650 | $7.22
+PCB | 2-layer PCB (base settings, incl. GST + shipping) | LionCircuits | ₹5,281 | $58.68
+Conversion fee (3%) |   |   | ₹159 | $1.77
+PCB Total |   |   | ₹5,440 | $60.45
+Switches + Stabilizers + Hotswap sockets | (x45 + x10 pack) | StacksKB | ₹3,604 | $40.04
+Conversion fee (3%) |   |   | ₹108 | $1.20
+Switches Total |   |   | ₹3,712 | $41.24
+Keycaps | Full keycap set | CuriosityCaps | ₹1,999 | $22.21
+Conversion fee (3%) |   |   | ₹59 | $0.66
+Keycaps Total |   |   | ₹2,058 | $22.87
+Non-metal Plate | Plate | robu.in | Rs 330 | 3.6 USD
+Screws | | onlyscrews.in | Rs 400 | 4.5 USD
+0.91" OLED | | I have
+Potentiometer | | I have
+
+And i need 3d printing from #printing-legion so that's Rs 820 or **9 USD**.
+
+---
+
 ## 🛠️ File Structure
 
 ```
