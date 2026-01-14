@@ -99,6 +99,12 @@ Potentiometer | | I have
 
 And i need 3d printing from #printing-legion so that's Rs 820 or **9 USD**.
 
+## Total
+Currency | Total
+-- | --
+INR | ₹13,400
+USD | $147.25 
+
 ---
 
 ## 🛠️ File Structure
